@@ -1,0 +1,5 @@
+FROM nginx
+MAINTAINER mahi
+LABEL This is Movie Tickets booking platform
+EXPOSE 80
+COPY index.html /usr/share/nginx/html/
